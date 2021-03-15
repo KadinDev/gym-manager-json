@@ -1,0 +1,66 @@
+{
+  "members": [
+    {
+      "id": 3,
+      "avatar_url": "https://assets.afcdn.com/story/20160810/952148_w980h638c1cx511cy250.jpg",
+      "name": "Darla Dixon",
+      "email": "ricardoips@hotmail.com",
+      "birth": -2200608000000,
+      "gender": "F",
+      "blood": "O+",
+      "weight": "75",
+      "height": "180"
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://assets.afcdn.com/story/20160810/952148_w980h638c1cx511cy250.jpg",
+      "name": "Ricardo Alves Correa",
+      "email": "ricardoips@hotmail.com",
+      "birth": 626572800000,
+      "gender": "M",
+      "blood": "B+",
+      "weight": "70",
+      "height": "169"
+    },
+    {
+      "id": 6,
+      "avatar_url": "https://i.pinimg.com/originals/87/3e/b3/873eb350b17d318f717e8b79ce360581.png",
+      "name": "Katia Souza",
+      "email": "kaka@teste.com",
+      "birth": 343958400000,
+      "gender": "F",
+      "blood": "A-",
+      "weight": "70",
+      "height": "175"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "Cida Pompeo",
+      "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "birth": 563932800000,
+      "gender": "F",
+      "services": "JavaScript, NodeJS, Mongo",
+      "created_at": 1606426880437
+    },
+    {
+      "id": 3,
+      "name": "Kadin Dev Correa",
+      "avatar_url": "https://images.unsplash.com/photo-1480406266260-49c193257b6d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+      "birth": 629164800000,
+      "gender": "M",
+      "services": "Front End, Back End",
+      "created_at": 1606427177034
+    },
+    {
+      "id": 4,
+      "name": "Irmã da Pompeo",
+      "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "birth": 626140800000,
+      "gender": "F",
+      "services": "Back-End, SQL",
+      "created_at": 1606427271283
+    }
+  ]
+}

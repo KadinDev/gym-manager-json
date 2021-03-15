@@ -1,0 +1,143 @@
+<div class="item">
+    <div>Avatar URL</div>
+        <div>
+            <input 
+                type="url" 
+                name="avatar_url"
+                placeholder="https://"
+                value="{{ members.avatar_url }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Nome</div>
+        <div>
+            <input 
+                type="text" 
+                name="name"
+                value="{{ members.name }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>E-mail</div>
+        <div>
+            <input 
+                type="email" 
+                name="email"
+                value="{{ members.email }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Data de nascimento</div>
+        <div>
+            <input 
+                type="date"
+                name="birth"
+                value="{{ members.birth }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Sexo</div>
+        <div>
+            <span> 
+                <input 
+                    type="radio" 
+                    name="gender" 
+                    value="M"
+                    {% if members.gender == 'M' %}
+                        checked  
+                    {% endif %}
+                >   Masculino 
+            </span>
+            <span> 
+                <input 
+                    type="radio" 
+                    name="gender" 
+                    value="F"
+                    {% if members.gender == 'F' %}
+                        checked  
+                    {% endif %}
+                >   Feminino
+            </span>
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Tipo Sanguíneo</div>
+        <div>
+            <select name="blood">
+                <option value="A+" 
+                    {% if members.blood == 'A+' %}selected{% endif %}>   
+                    A+  
+                </option>
+
+                <option value="A-" 
+                    {% if members.blood == 'A-' %}selected{% endif %}>   
+                    A-  
+                </option>
+
+                <option value="B+" 
+                    {% if members.blood == 'B+' %}selected{% endif %}>   
+                    B+  
+                </option>
+
+                <option value="B-" 
+                    {% if members.blood == 'B-' %}selected{% endif %}>   
+                    B-  
+                </option>
+
+                <option value="AB+" 
+                    {% if members.blood == 'AB+' %}selected{% endif %}>A  
+                    B+  
+                </option>
+
+                <option value="AB-" 
+                    {% if members.blood == 'AB-' %}selected{% endif %}>A  
+                    B-  
+                </option>
+
+                <option value="O+" 
+                    {% if members.blood == 'O+' %}selected{% endif %}>   
+                    O+  
+                </option>
+
+                <option value="O-" 
+                    {% if members.blood == 'O-' %}selected{% endif %}>   
+                    O-  
+                </option>
+
+            </select>
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Peso (kg)</div>
+        <div>
+            <input 
+                type="number"
+                name="weight"
+                value="{{ members.weight }}"
+            >
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Altura (cm)</div>
+        <div>
+            <input 
+                type="number"
+                name="height"
+                value="{{ members.height }}"
+            >
+        </div>
+    </div>
+    
+    <button type="submit"> Salvar </button>
+</div>
